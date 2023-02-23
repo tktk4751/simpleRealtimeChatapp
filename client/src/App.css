@@ -1,0 +1,105 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.h3Title {
+  cursor: pointer;
+  font-size: 46px;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.textbox {
+  width: 200px;
+  height: 21px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+}
+.textbox:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+@media (prefers-color-scheme: light) {
+  .textbox:hover {
+    filter: drop-shadow(0 0 2em #0f13ffaa);
+  }
+}
+
+.input {
+  width: 490px;
+  height: 21px;
+  margin-left: 50px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 1em;
+  background-color: #ccc;
+  color: #212121;
+  box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: 300ms ease-in-out;
+}
+
+.input:focus {
+  background-color: white;
+  transform: scale(1.05);
+}
+
+.chat-body {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  width: 550px;
+  height: 321px;
+  border-radius: 30px;
+  background: #212121;
+}
+
+.chat-footer {
+  display: flex;
+}
+
+.chatInputButton {
+  margin-left: 8px;
+}
